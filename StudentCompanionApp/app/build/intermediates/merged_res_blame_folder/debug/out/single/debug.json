@@ -1,0 +1,258 @@
+[
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_class_icon.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/class_icon.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_selection.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/selection.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_alarm_check_box.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/alarm_check_box.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_repeat.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/repeat.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_card_contents_table.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_contents_table.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_plus.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_plus.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_fragment_new_edit.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_new_edit.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_book_open.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_book_open.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_file.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_file.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/navigation_nav_graph.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_file_word.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_file_word.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_file_pdf.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_file_pdf.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_menu.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_menu.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_fragment_recycler_view.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_recycler_view.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_toop.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/toop.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_database_search.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_database_search.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_edit.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_edit.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_table_clock.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_table_clock.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_texted.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/texted.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_card_attachments.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_attachments.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_card_table_content.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_table_content.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_card_corse.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_corse.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/menu_bottom_navigation_menu.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_books.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_books.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_month_card.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/month_card.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_check.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_check.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_close.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_delete.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_delete.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_fragment_upcomming.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_upcomming.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_bell_ring.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_bell_ring.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_alarm.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_alarm.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_card_upcomming.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_upcomming.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_top.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/top.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_dialog_class_picker.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/dialog_class_picker.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_add_activity_card.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/add_activity_card.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_attachment.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_attachment.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_fragment_card_selection.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_card_selection.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_book_opent.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_book_opent.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_activity_home.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_pencil.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_pencil.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_bell_ring_colored.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_bell_ring_colored.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_fragment_class_list.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_class_list.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/menu_cotextual_attachment_menu.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/menu/cotextual_attachment_menu.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_card_select_class.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_select_class.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_activity_course_details.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/activity_course_details.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_selected.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/selected.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_content_save.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_content_save.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/menu_new_fragment_toolbar_menu.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/menu/new_fragment_toolbar_menu.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_book_open_white.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_book_open_white.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_colorbook.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/colorbook.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/layout_fragment_curent_info.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_curent_info.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/drawable_ic_class.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/drawable/ic_class.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/merged_res/debug/xml_provider_paths.xml.flat",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/xml/provider_paths.xml"
+    }
+]

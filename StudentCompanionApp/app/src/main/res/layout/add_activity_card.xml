@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <data>
+        
+        <variable
+            name="temp"
+            type="com.crysart.student.models.Activities"/>
+        
+    
+    </data>
+    
+    <LinearLayout
+        android:id="@+id/sheet"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        
+        <com.google.android.material.appbar.AppBarLayout
+            android:elevation="8dp"
+            android:id="@+id/appbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            
+            <com.google.android.material.appbar.MaterialToolbar
+                android:id="@+id/toolbar"
+                app:title="New Class"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="match_parent"
+                style="@style/Widget.MaterialComponents.Toolbar.Primary">
+                
+                <Button
+                    android:buttonTint="?attr/colorControlNormal"
+                    android:id="@+id/saveb"
+                    android:layout_gravity="end"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/save"
+                    android:textColor="?attr/colorOnPrimary"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"/>
+                
+            
+            </com.google.android.material.appbar.MaterialToolbar>
+            
+        
+        </com.google.android.material.appbar.AppBarLayout>
+        
+        <androidx.core.widget.NestedScrollView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/type_group"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/code_input"
+                    android:layout_margin="16dp"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="10"
+                    app:endIconMode="clear_text"
+                    app:errorEnabled="true"
+                    app:helperText="keep it short!"
+                    app:helperTextEnabled="true"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:hint="title"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+                    
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/code_input_field"
+                        android:inputType="textCapWords"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:maxLines="1"
+                        android:text="@={temp.title}"/>
+                    
+                
+                </com.google.android.material.textfield.TextInputLayout>
+                
+                <Switch
+                    android:checked="@={temp.duringClass}"
+                    android:id="@+id/class_switch"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_width="match_parent"
+                    android:text="During Class"
+                    app:layout_constraintTop_toBottomOf="@id/code_input"/>
+                
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/date_input"
+                    android:layout_width="0dp"
+                    app:errorEnabled="true"
+                    app:helperTextEnabled="true"
+                    android:hint="@string/date"
+                    android:layout_margin="16dp"
+                    android:layout_marginEnd="4dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:inputType="textCapSentences"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@id/start_input"
+                    app:layout_constraintHorizontal_weight="3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/class_switch">
+                    
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:cursorVisible="false"
+                        android:editable="false"
+                        android:id="@+id/day_input_field"
+                        android:inputType="none"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:maxLines="1"
+                        android:text="@{temp.date}"/>
+                    
+                
+                </com.google.android.material.textfield.TextInputLayout>
+                
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/start_input"
+                    app:errorEnabled="true"
+                    android:layout_margin="16dp"
+                    android:layout_marginStart="4dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:layout_width="0dp"
+                    app:helperText="start time"
+                    app:helperTextEnabled="true"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_weight="2"
+                    app:layout_constraintStart_toEndOf="@id/date_input"
+                    app:layout_constraintTop_toBottomOf="@id/class_switch"
+                    android:hint="@string/start">
+                    
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:cursorVisible="false"
+                        android:editable="false"
+                        android:id="@+id/start_input_field"
+                        android:inputType="none"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:maxLines="1"
+                        android:text="@={temp.time}"/>
+                    
+                
+                </com.google.android.material.textfield.TextInputLayout>
+                
+                <TextView
+                    android:id="@+id/pre_text"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="@string/pre_reminder"
+                    app:layout_constraintTop_toBottomOf="@id/freq_input"/>
+                
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/freq_input"
+                    android:layout_width="match_parent"
+                    app:helperTextEnabled="true"
+                    android:layout_marginStart="16dp"
+                    app:errorEnabled="true"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:hint="@string/frequency"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:layout_constraintTop_toBottomOf="@id/date_input">
+                    
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:cursorVisible="false"
+                        android:editable="false"
+                        android:id="@+id/freq_input_field"
+                        android:inputType="none"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:maxLines="1"
+                        android:text="@={temp.frequency}"/>
+                    
+                
+                </com.google.android.material.textfield.TextInputLayout>
+                
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/pre_date_input"
+                    android:layout_width="0dp"
+                    app:errorEnabled="true"
+                    app:helperTextEnabled="true"
+                    android:hint="@string/date"
+                    android:layout_margin="16dp"
+                    android:layout_marginEnd="4dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:inputType="textCapSentences"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@id/pre_start_input"
+                    app:layout_constraintHorizontal_weight="3"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/pre_text">
+                    
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:cursorVisible="false"
+                        android:editable="false"
+                        android:id="@+id/pre_day_input_field"
+                        android:inputType="none"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:maxLines="1"/>
+                    
+                
+                </com.google.android.material.textfield.TextInputLayout>
+                
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/pre_start_input"
+                    app:errorEnabled="true"
+                    android:layout_margin="16dp"
+                    android:layout_marginStart="4dp"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                    android:layout_width="0dp"
+                    app:helperText="start time"
+                    app:helperTextEnabled="true"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_weight="2"
+                    app:layout_constraintStart_toEndOf="@id/pre_date_input"
+                    app:layout_constraintTop_toBottomOf="@id/freq_input"
+                    android:hint="@string/start">
+                    
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:cursorVisible="false"
+                        android:editable="false"
+                        android:id="@+id/pre_start_input_field"
+                        android:inputType="none"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:maxLines="1"
+                        android:text="00:00"/>
+                    
+                
+                </com.google.android.material.textfield.TextInputLayout>
+                
+                <CheckBox
+                    android:id="@+id/remind"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_width="wrap_content"
+                    android:text="Set Reminder"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/pre_start_input"/>
+                
+                <TextView
+                    android:id="@+id/war"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_width="wrap_content"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:textColor="@color/colorAccent"
+                    android:visibility="gone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/remind"
+                    android:text="*Day Cant be Blank"/>
+                
+                <ImageView
+                    android:layout_height="2000dp"
+                    android:layout_width="match_parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/war"/>
+                
+            
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            
+        
+        </androidx.core.widget.NestedScrollView>
+        
+    
+    </LinearLayout>
+    
+
+</layout>

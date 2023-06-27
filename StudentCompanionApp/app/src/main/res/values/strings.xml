@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">StudentCompanion</string>
+    <string name = "upcomming">Upcomming</string>
+    <string name ="table">Table</string>
+    <string name="corses">Corses</string>
+    <string name="today">Today</string>
+    <string name="tommorow">Tommorow</string>
+    <string name="others">Others</string>
+    <string name="pre_reminder">Pre Reminder</string>
+    <string name="day">Day</string>
+    <string name="frequency">Frequency</string>
+     <string name="date">Date</string>
+    <string name="delete">Delete</string>
+    <string name="now">Now</string>
+    <string name="missed">Missed Notification</string>
+    <string name="edit">Edit</string>.
+    <string name="upcomming_desc">Upcomming Classes</string>
+    <string name="table_desc">All class Table </string>
+     <string name="corses_desc">All Corses</string>
+    <string name="code">Code</string>
+     <string name="save">Save</string>
+     <string name="save_desc">save new class</string>
+     <string name="start">Start</string>
+      <string name="stop">Stop</string>
+       <string name="class_notification_channel">Class Notifications</string>
+      <string name="channel_description">
+            shows notification for classes
+      </string>
+    
+  
+</resources>

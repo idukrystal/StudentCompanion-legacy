@@ -1,0 +1,11 @@
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:constantSize= "true"
+    android:dither="false">
+    <item
+        android:state_checked="true"
+        android:drawable = "@drawable/colorbook">
+    </item>
+    <item
+        android:drawable = "@drawable/colorbook"/>
+</selector>

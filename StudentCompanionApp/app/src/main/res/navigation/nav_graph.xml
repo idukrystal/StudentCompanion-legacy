@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav_graph"
+            app:startDestination="@id/up_b">
+            <fragment
+            android:id="@+id/up_b"
+            android:name="com.crysapp.student.fragments.ClassListFragment"
+            android:label="Class_Fragment">
+            <action
+                android:id="@+id/action_1"
+                app:destination="@id/tab_b"
+                />
+            </fragment>
+            
+             <fragment
+            android:id="@+id/tab_b"
+            android:name="com.crysapp.student.fragments.TableFragment"
+            android:label="Table_Fragment">
+            <action
+                android:id="@+id/action_1"
+                app:destination="@id/cor_b"
+                />
+            </fragment>
+            
+             <fragment
+            android:id="@+id/cor_b"
+            android:name="com.crysapp.student.fragments.CourseFragment"
+            android:label="Course_Fragment">
+            
+            </fragment>
+            
+            
+</navigation>

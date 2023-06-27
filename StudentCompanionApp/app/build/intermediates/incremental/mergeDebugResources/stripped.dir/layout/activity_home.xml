@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    
+    android:fitsSystemWindows="true"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+      <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:background="@android:color/transparent"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/whiteView"
+        >
+         <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            app:titleEnabled="false"
+            android:id="@+id/collapse"
+            android:layout_height="wrap_content"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            app:contentScrim="?attr/colorPrimary"
+            app:statusBarScrim="?attr/colorPrimaryDark"
+          >
+
+
+         <androidx.viewpager2.widget.ViewPager2
+         android:layout_width="match_parent"
+         app:layout_collapseMode="parallax"
+         android:layout_height="wrap_content"
+         android:id="@+id/current_pager"
+         app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        />
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            app:liftOnScroll="true"
+            app:layout_collapseMode="pin"
+            android:elevation="0dp"
+            android:background="@android:color/transparent"
+            app:navigationIcon="@drawable/ic_menu"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+           />
+     </com.google.android.material.appbar.CollapsingToolbarLayout>
+   
+    </com.google.android.material.appbar.AppBarLayout>
+     
+    
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph" />
+      <!--  <LinearLayout
+            android:background="@null"
+            app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/bottomll"
+            android:paddingTop="16dp"
+            > -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:elevation="8dp"
+            android:id="@+id/bottom"
+            app:layout_behavior="@string/hide_bottom_view_on_scroll_behavior"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            app:menu="@menu/bottom_navigation_menu"
+        />
+      <!-- </LinearLayout> -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        app:layout_anchor="@id/bottom"
+        android:translationY="-16dp"
+        app:layout_anchorGravity="top|end"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="top|end"
+        app:srcCompat="@drawable/ic_plus"/>
+   <androidx.coordinatorlayout.widget.CoordinatorLayout
+         app:layout_anchor="@id/fab"
+         android:layout_gravity="top"
+         app:layout_anchorGravity="top"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/snacks"
+    />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

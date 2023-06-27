@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/card_select_class.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_select_class.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/card_attachments.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_attachments.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_course_details.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/activity_course_details.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_new_edit.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_new_edit.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_class_picker.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/dialog_class_picker.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_card_selection.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_card_selection.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/card_corse.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_corse.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/month_card.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/month_card.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/card_contents_table.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_contents_table.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/activity_home.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/add_activity_card.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/add_activity_card.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_class_list.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_class_list.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/card_table_content.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_table_content.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_upcomming.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_upcomming.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/texted.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/texted.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_curent_info.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_curent_info.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_recycler_view.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/fragment_recycler_view.xml"
+    },
+    {
+        "merged": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/card_upcomming.xml",
+        "source": "/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/res/layout/card_upcomming.xml"
+    }
+]

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+<item>
+<shape
+    android:shape="oval">
+    <solid
+        android:color="#000000"/>
+    <size
+        android:width="62dp"
+        android:height="62dp"/>
+</shape>
+</item>
+    <item
+        android:drawable="@drawable/ic_book_open"
+        android:gravity="center"
+        />
+</layer-list>

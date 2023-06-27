@@ -1,0 +1,179 @@
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sheet"
+    
+    app:behavior_peekHeight="0dp"
+    app:behavior_hideable="true"
+    app:behavior_skipCollapsed="true"
+    android:layout_width="match_parent"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+    android:layout_height="wrap_content">
+    
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            app:title="New Class"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary">
+         <Button
+             android:id="@+id/saveb"
+             android:layout_gravity="end"
+             android:textColor="?attr/colorOnPrimary"
+             android:buttonTint="?attr/colorControlNormal"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/save"
+             style="@style/Widget.MaterialComponents.Button.TextButton"
+             />
+         
+         </com.google.android.material.appbar.MaterialToolbar>
+        
+    </com.google.android.material.appbar.AppBarLayout>
+
+  
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/code_input"
+        android:layout_margin="16dp"
+        app:helperTextEnabled="true"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:counterEnabled="true"
+        app:counterMaxLength="10"
+         app:helperText="start time"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/appbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="@string/code">
+        ​
+        <com.google.android.material.textfield.TextInputEditText
+            android:maxLines="1"
+            android:inputType="textCapCharacters"
+            android:id="@+id/code_input_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        />
+        ​
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/day_input"
+        app:errorEnabled="true"
+        app:helperTextEnabled="true"
+        android:layout_margin="16dp"
+        android:layout_marginTop="0dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+        android:inputType="textCapSentences"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/code_input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:hint="@string/day">
+        ​
+        <AutoCompleteTextView
+            android:inputType="none"
+            android:layout_width="match_parent"
+            android:id="@+id/day_input_field"
+            android:layout_height="wrap_content"/>
+        
+        
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/day_input"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:orientation="horizontal">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/start_input"
+        app:errorEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+         app:helperTextEnabled="true"
+         app:helperText="start time"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:layout_constraintTop_toBottomOf="@id/day_input"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="@string/start">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/start_input_field"
+            android:inputType="none"
+            android:editable="false"
+            android:maxLines="1"
+            android:cursorVisible="false"
+            android:text="00:00"
+            android:layout_height="wrap_content"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:id="@+id/stop_input"
+         app:helperTextEnabled="true"
+        android:layout_marginStart="16dp"
+       app:errorEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/stop">
+        ​
+        <com.google.android.material.textfield.TextInputEditText
+            android:text="00:00"
+            android:cursorVisible="false"
+            android:layout_width="match_parent"
+            android:maxLines="1"
+            android:editable="false"
+            android:inputType="none"
+            android:id="@+id/stop_input_field"
+            android:layout_height="wrap_content"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <CheckBox
+        android:layout_marginStart="16dp"
+        android:id="@+id/remind"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Set Reminder"
+        app:layout_constraintTop_toBottomOf="@id/ll"
+        app:layout_constraintStart_toStartOf="parent"/>
+      <TextView
+        android:layout_marginStart="16dp"
+         android:layout_marginBottom="16dp"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:id="@+id/war"
+        
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/remind"
+        app:layout_constraintBottom_toBottomOf="parent"
+        
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="*Day Cant be Blank"
+    />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

@@ -1,0 +1,101 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.crysart.student.companion"
+4    android:versionCode="100"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:4:7-81
+11-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:4:24-79
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:5:5-81
+12-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:5:23-79
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:6:5-84
+13-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:6:22-65
+14
+15    <application
+15-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:8:5-38:19
+16        android:name="com.crysapp.student.StudentCompanionApplication"
+16-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:9:8-51
+17        android:allowBackup="true"
+17-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:10:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/93cd69974a1529ec20cc085f231955a9/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:14:9-35
+24        android:theme="@style/AppTheme" >
+24-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:15:9-40
+25        <receiver
+25-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:16:10-117
+26            android:name="com.crysapp.student.utill.ClassAlarmReceiver"
+26-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:16:46-105
+27            android:process=":remote" />
+27-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:16:20-45
+28
+29        <provider
+29-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:17:9-25:20
+30            android:name="androidx.core.content.FileProvider"
+30-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:18:13-62
+31            android:authorities="com.crysapp.student.provider"
+31-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:19:13-63
+32            android:exported="false"
+32-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:20:13-37
+33            android:grantUriPermissions="true" >
+33-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:21:13-47
+34            <meta-data
+34-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:22:13-24:58
+35                android:name="android.support.FILE_PROVIDER_PATHS"
+35-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:23:17-67
+36                android:resource="@xml/provider_paths" />
+36-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:24:17-55
+37        </provider>
+38
+39        <activity
+39-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:27:9-33:20
+40            android:name="com.crysapp.student.HomeActivity"
+40-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:27:19-47
+41            android:exported="true" >
+41-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:28:13-36
+42            <intent-filter>
+42-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:29:13-32:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:30:17-69
+43-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:30:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:31:17-77
+45-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:31:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity
+48-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:34:9-37:11
+49            android:name="com.crysapp.student.CourseDetailActivity"
+49-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:35:13-49
+50            android:exported="true" />
+50-->/storage/emulated/0/AndroidIDEProjects/StudentCompanionApp/app/src/main/AndroidManifest.xml:36:13-36
+51
+52        <service
+52-->[androidx.room:room-runtime:2.3.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/1b626fe9330d0ec9c6ca585a2f041359/transformed/room-runtime-2.3.0/AndroidManifest.xml:25:9-28:40
+53            android:name="androidx.room.MultiInstanceInvalidationService"
+53-->[androidx.room:room-runtime:2.3.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/1b626fe9330d0ec9c6ca585a2f041359/transformed/room-runtime-2.3.0/AndroidManifest.xml:26:13-74
+54            android:directBootAware="true"
+54-->[androidx.room:room-runtime:2.3.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/1b626fe9330d0ec9c6ca585a2f041359/transformed/room-runtime-2.3.0/AndroidManifest.xml:27:13-43
+55            android:exported="false" />
+55-->[androidx.room:room-runtime:2.3.0] /data/data/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/1b626fe9330d0ec9c6ca585a2f041359/transformed/room-runtime-2.3.0/AndroidManifest.xml:28:13-37
+56    </application>
+57
+58</manifest>

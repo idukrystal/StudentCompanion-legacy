@@ -1,0 +1,25 @@
+<resources
+      xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+     <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+      
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
+    </style>
+   <style name="Widget.App.ActionMode" parent="Widget.AppCompat.ActionMode">
+        <item name="titleTextStyle">?attr/textAppearanceHeadline6</item>
+        <item name="subtitleTextStyle">?attr/textAppearanceHeadline1</item>
+        <item name="background">@color/material_grey_900</item>
+    </style>
+    <style
+        name = "primaryCard" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name ="cardBackgroundColor">?attr/colorPrimary</item>
+        <item name ="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+    <style name = "whiteView" parent = "@style/AppTheme">
+           <item
+               name = "colorPrimary">#ffffff</item>
+           <item
+               name = "colorOnPrimary">#f56785</item>
+    </style>
+</resources>

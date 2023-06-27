@@ -1,0 +1,85 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+       <import type="android.view.View"/>
+       <variable 
+           
+           name="presenter"
+           type="com.crysapp.student.presenter.ItemPresenter" />  
+      <variable 
+           name="item" 
+           type="com.crysapp.student.models.Attachment" /> 
+   </data>
+   <androidx.cardview.widget.CardView
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/mid_card"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <FrameLayout
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            
+             > 
+        <ImageView
+            android:id="@+id/images"
+            android:layout_width="64dp"
+            android:layout_height="128dp"/>
+            <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/ic_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:visibility="@{item.isSelected?View.VISIBLE:View.INVISIBLE}"
+         />
+        </FrameLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/guideline"
+            android:background="#ccc"
+            android:visibility="gone"
+            app:layout_constraintTop_toTopOf="@id/image"
+            app:layout_constraintBottom_toBottomOf="@id/image"
+            android:orientation="horizontal"/>
+            
+        <TextView
+            android:layout_marginStart="32dp"
+            android:text="@{item.getName()}"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/corse"
+            app:layout_constraintBottom_toTopOf="@id/guideline"
+            app:layout_constraintStart_toEndOf="@id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginStart="32dp"
+            android:text="@{item.getType()}"
+            android:id="@+id/times"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            app:layout_constraintStart_toEndOf="@id/image"
+            app:layout_constraintTop_toBottomOf="@id/corse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+     .
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+
+</layout>
