@@ -4,132 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Companion App</title>
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #6a1b9a;
-            color: #fff;
-            text-align: center;
-            padding: 2rem;
-        }
-
-        header h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
-
-        main {
-            padding: 2rem;
-        }
-
-        .features {
-            background-color: #f5f5f5;
-            padding: 2rem;
-        }
-
-        .features h2 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        .features li {
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .demo {
-            padding: 2rem;
-            text-align: center;
-        }
-
-        .demo h2 {
-            font-size: 2rem;
-            margin-bottom: 1rem;
-        }
-
-        .demo img {
-            max-width: 100%;
-            margin-bottom: 1rem;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .cta {
-            background-color: #6a1b9a;
-            text-align: center;
-            padding: 2rem;
-        }
-
-        .cta h2 {
-            font-size: 2rem;
-            color: #fff;
-            margin-bottom: 1rem;
-        }
-
-        .cta p {
-            font-size: 1.2rem;
-            color: #fff;
-            margin-bottom: 1.5rem;
-        }
-
-        .btn {
-            display: inline-block;
-            background-color: #fff;
-            color: #6a1b9a;
-            padding: 1rem 2rem;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 1.2rem;
-            transition: background-color 0.3s ease;
-        }
-
-        .btn:hover {
-            background-color: #f5f5f5;
-        }
-
-        footer {
-            background-color: #6a1b9a;
-            color: #fff;
-            text-align: center;
-            padding: 1rem;
-        }
-
-        footer p {
-            font-size: 1.2rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
 </head>
 <body>
     <header>
-        <h1>Student Companion</h1>
-        <p>A simple timetable/reminder app to enhance your student life!</p>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section class="features">
-            <h2>Features</h2>
-            <ul>
-                <li>Organize your class schedule and academic events</li>
-                <li>Set reminders and alarms for important deadlines</li>
-                <li>Manage study materials for each course in one place</li>
-                <li>Stay on top of your assignments and exams</li>
-            </ul>
+        <section class="intro">
+            <div class="cover-image">
+                <img src="cover-image.jpg" alt="Student Companion App Cover Image">
+            </div>
+            <div class="intro-content">
+                <h1>Student Companion App</h1>
+                <p>A simple and intuitive tool to help students stay organized and focused on their studies.</p>
+                <a href="https://www.example.com" class="btn">Try it now</a>
+            </div>
         </section>
-        <section class="demo">
-            <h2>See It In Action</h2>
-            <!-- Add a demo video or screenshots here -->
-            <img src="demos/demo_1.jpg" alt="Demo Screenshot 1">
-            <img src="demos/demo_2.jpg" alt="Demo Screenshot 2">
+        <section id="features" class="features">
+            <h2>Key Features</h2>
+            <div class="feature">
+                <img src="feature1.png" alt="Feature 1">
+                <h3>Timetable Management</h3>
+                <p>Effortlessly organize and keep track of your classes and academic events.</p>
+            </div>
+            <div class="feature">
+                <img src="feature2.png" alt="Feature 2">
+                <h3>Reminder System</h3>
+                <p>Set reminders and alarms to never miss important deadlines or events.</p>
+            </div>
+            <div class="feature">
+                <img src="feature3.png" alt="Feature 3">
+                <h3>Study Material Organization</h3>
+                <p>Keep all your study materials in one place for easy access and reference.</p>
+            </div>
         </section>
-        <section class="cta">
-            <h2>Get Started Today!</h2>
-            <p>Download the Student Companion app now and make your student life easier.</p>
-            <a href="#" class="btn">Download Now</a>
+        <section id="about" class="about">
+            <h2>About</h2>
+            <p>The Student Companion App was inspired by my own experiences as a student and the need for a reliable and efficient tool to manage academic life. As a student myself, I understand the challenges of staying organized and keeping track of various tasks and deadlines. This app aims to simplify the lives of students by providing a user-friendly interface and essential features tailored specifically for their needs.</p>
+            <div class="team-members">
+                <h3>Team Members</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/yourname">Your Name</a></li>
+                    <li><a href="https://www.linkedin.com/in/teamember1">Team Member 1</a></li>
+                    <li><a href="https://www.linkedin.com/in/teamember2">Team Member 2</a></li>
+                </ul>
+            </div>
+            <a href="https://github.com/yourusername/student-companion-app" class="github-link">View on GitHub</a>
+        </section>
+        <section class="video">
+            <h2>Project Overview Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </section>
     </main>
     <footer>
