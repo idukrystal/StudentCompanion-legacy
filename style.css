@@ -1,0 +1,241 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #6c63ff;
+  padding: 1rem;
+  
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav li {
+  margin-right: 1rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+header nav a:hover {
+    color: #fca311;
+}
+
+section {
+  padding: 2rem;
+}
+
+#intro {
+  background-color: #f2f2f2;
+  background-image: url("cover_5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px; /* Set the desired height of the header */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-align: center;
+}
+
+#intro h1 {
+  font-size: 3rem;
+  color: #6c63ff;
+  margin-bottom: 1rem;
+}
+
+#intro p {
+  font-size: 1.2rem;
+  color: #7373FF;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #6c63ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+#features {
+  background-color: #fff;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2, h3{
+  font-size: 2rem;
+  color: #6c63ff;
+  margin-bottom: 1.5rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.feature:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.feature-img {
+  width: 50%;
+}
+
+.feature-img img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.feature-content {
+  width: 50%;
+  padding: 1rem;
+}
+
+.feature h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #6c63ff;
+}
+
+.feature p {
+  color: #333;
+}
+
+#about {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #6c63ff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+/* Previous CSS code ... (Same as previous code) */
+
+/* New CSS for the video section */
+#video {
+  background-color: #f7f7f7;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .video-container {
+    padding-bottom: 75%;
+  }
+}
+
+/* Previous CSS code ... (Same as previous code) */
+
+/* CSS for the header buttons */
+.header-buttons {
+  display: flex;
+}
+
+.github-button,
+.blog-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #512DA8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Adjust the header buttons on smaller screens if needed */
+}
+
+/* style.css */
+/* Other CSS styles above */
+footer {
+  background-color: #4A148C;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+/* style.css */
+/* Other CSS styles above */
+
+/* style.css */
+/* Other CSS styles above */
+
+footer {
+  background-color: #f8f8ff; /* Light background color */
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 30px;
+  color: #666666;
+}
+
+footer p {
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  margin: 0;
+}
