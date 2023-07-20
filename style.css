@@ -34,8 +34,8 @@ section {
 }
 
 #intro {
-  background-color: #f2f2f2;
-  background-image: url("demos/cover_5.png");
+  /*background-color: #f2f2f2;*/
+  background-image: url("demos/cover_5.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
